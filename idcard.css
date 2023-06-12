@@ -2,15 +2,21 @@
     margin: 00px;
     padding: 00px;
     box-sizing: content-box;
+
 }
 
+.clgjpg{
+    background-image: url("clg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .container {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e6ebe0;
     flex-direction: row;
     flex-flow: wrap;
 
@@ -26,7 +32,7 @@
 .top{
     height: 30%;
     width: 100%;
-    background-color: #8338ec;
+    background-color: #902727;
     position: relative;
     z-index: 5;
     border-top-left-radius: 15px;
@@ -62,12 +68,16 @@
 }
 .bottom .desi{
     font-size:12px;
-    color: grey;
+    color: rgb(152, 9, 9);
     font-weight: normal;
 }
 .bottom .no{
     font-size: 15px;
     font-weight: normal;
+}
+.bottom .clg{
+    font-size: 17px;
+    font-weight: lighter;
 }
 .barcode img
 {
@@ -86,8 +96,8 @@
 {
     height: 375px;
     width: 250px;
-    border-radius: 10px;
-    background-color: #8338ec;
+    border-radius: 5px;
+    background-color: #902727;
 
 }
 .qr img{
@@ -118,7 +128,8 @@
 .logo {
     height: 40px;
     width: 150px;
-    padding: 40px;
+    padding: 50px;
+    margin-top: -40px;
 }
 
 .logo img{
@@ -127,9 +138,12 @@
     color: white ;
 
 }
+
 .padding{
     padding-right: 20px;
 }
+
+
 
 @media screen and (max-width:400px)
 {
